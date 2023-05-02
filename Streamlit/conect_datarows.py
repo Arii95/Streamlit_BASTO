@@ -3,7 +3,7 @@ import pandas as pd
 import pymongo
 import numpy as np
 
-data_mongo = pymongo.MongoClient('https://sa-east-1.aws.data.mongodb-api.com/app/data-lmbyi/endpoint/data/v1')#'localhost:27017') #'mongodb+srv://brandon:brandon1@cluster0.tfvievv.mongodb.net/?retryWrites=true&w=majority')
+data_mongo = pymongo.MongoClient('mongodb+srv://ariarana902:ari123@cluster0.chjvjqz.mongodb.net/test')#localhost:27017') #'mongodb+srv://brandon:brandon1@cluster0.tfvievv.mongodb.net/?retryWrites=true&w=majority')
 # )#
 # Seleccionar una base de datos existente o crear una nueva llamada 'test'.
 db = data_mongo['test']
